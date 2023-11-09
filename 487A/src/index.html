@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Special+Elite&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <script src="https://kit.fontawesome.com/16c36f9ae6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container w-full flex flex-col md:flex-row">
+    <div class="image-slider basis-1/2">
+        <div class="mySlides">
+            <img src="img1.webp">
+        </div>     
+        <div class="mySlides">
+            <img src="img2.webp">
+        </div> 
+        <div class="mySlides">
+            <img src="img3.webp">
+        </div> 
+        <div class="mySlides">  
+            <img src="img-4.png">
+        </div> 
+        <div class="mySlides">
+            <img src="img5.webp">
+        </div> 
+        <div class="mySlides">
+            <img src="img6.png">
+        </div> 
+
+        <div class="row">
+            <div class="column">
+                <p><img class="demo cursor" src="img1.webp" onclick="currentSlide(1)"></p>
+            </div>
+            <div class="column">
+                <p><img class="demo cursor" src="img2.webp" onclick="currentSlide(2)"></p>
+            </div>
+            <div class="column">
+                <p><img class="demo cursor" src="img3.webp" onclick="currentSlide(3)"></p>
+            </div>
+            <div class="column">
+                <p><img class="demo cursor" src="img-4.png" onclick="currentSlide(4)"></p>
+            </div>
+            <div class="column">
+                <p><img class="demo cursor" src="img5.webp" onclick="currentSlide(5)"></p>
+            </div>
+            <div class="column">
+                <p><img class="demo cursor" src="img6.png" onclick="currentSlide(6)"></p>
+            </div>
+        </div>
+
+        <div class="rowsmall flex flex-row">
+            <div class="column">
+                <button class="demo cursor" src="img1.webp" onclick="currentSlide(1)"></button>
+            </div>
+            <div class="column">
+                <button class="demo cursor" src="img2.webp" onclick="currentSlide(2)"></button>
+            </div>
+            <div class="column">
+                <button class="demo cursor" src="img3.webp" onclick="currentSlide(3)"></button>
+            </div>
+            <div class="column">
+                <button class="demo cursor" src="img-4.png" onclick="currentSlide(4)"></button>            
+            </div>
+            <div class="column">
+                <button class="demo cursor" src="img5.webp" onclick="currentSlide(5)"></button>
+            </div>
+            <div class="column">
+                <button class="demo cursor" src="img6.png" onclick="currentSlide(6)"></button>
+            </div>
+        </div> 
+
+    </div>
+    <div class="form basis-1/2">
+        <div class="py-40 flex flex-col items-center md:w-2/3 lg:w-3/4 mx-auto">
+            <div class="heading font-EBGaramond font-extralight">
+                <p class="text-center">“Drizzle” & “Sizzle”</p>
+                <p class="underline text-center">Extra Virgin Olive Oil</p>
+                <div class="reviews font-specialelite text-base flex flex-row text-center">
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="rev align-text-bottom">881 Reviews</div>
+                </div>
+            </div>
+            <div class="container1 border rounded-xl font-specialelite">
+                <div class="text-lg">Quantity</div>
+                <div class="boxes flex flex-row">
+                    <button class="box1 border rounded-xl text-center basis-22" id="mybtn" onclick="
+                        otp='$37';sns='$33.30';document.getElementById('otp').innerHTML = otp;document.getElementById('sns').innerHTML = sns;
+                        ">
+                        <p class="text-3xl">1</p>
+                        <p class="text-xl">Set</p>
+                    </button>
+                    <button class="box1 border rounded-xl text-center basis-22" id="mybtn" onclick="
+                    //
+                    otp='$69';sns='$64.17';document.getElementById('otp').innerHTML = otp;document.getElementById('sns').innerHTML = sns;
+                    //
+                    ">
+                        <p class="text-3xl">2</p>
+                        <p class="text-xl">Sets</p>
+                        <p class="text-xs">Free Shipping!</p>
+                        <p class="text-xs">+7% off</p>
+                    </button>
+                    <button class="box1 border rounded-xl text-center basis-22" id="mybtn" onclick="
+                    //
+                    otp='$102';sns='$94.86';document.getElementById('otp').innerHTML = otp;document.getElementById('sns').innerHTML = sns;
+                    //
+                    ">
+                        <p class="text-3xl">3</p>
+                        <p class="text-xl">Sets</p>
+                        <p class="text-xs">Free Shipping</p>
+                        <p class="text-xs">+9% off</p>
+                    </button>
+                    <button class="box1 border rounded-xl text-center basis-22" id="mybtn" onclick="
+                    //
+                    otp='$199';sns='$184.07';document.getElementById('otp').innerHTML = otp;document.getElementById('sns').innerHTML = sns;
+                    //
+                    ">
+                        <p class="text-3xl">4</p>
+                        <p class="text-xl">Sets</p>
+                        <p class="text-xs">Free Shipping</p>
+                        <p class="text-xs">+11% off</p>
+                    </button>
+                </div>
+                <div><hr class="line"></div>
+                <div class="option1 text-lg align-baseline"><button class="btn border rounded-full"></button>One Time Purchase<div class="rate">
+                    <div id="otp"></div>
+                </div></div>
+                <div><hr class="line"></div>
+                <div class="option1 text-lg align-baseline"><button class="btn1 border rounded-full"></button>Subscribe & Save<div class="rate">
+                    <div id="sns"></div>
+                    <span id="variableValue"></span></div></div>
+                <div><hr class="line"></div>
+                <button class="cart border rounded-full text-lg" id="btn" id="otp">Add to Cart</button>
+            </div>
+            </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
